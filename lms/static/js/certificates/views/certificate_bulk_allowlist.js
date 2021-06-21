@@ -117,18 +117,16 @@
 
                         case MESSAGE_GROUP.user_not_exist:
                             text = qty > 1 ?
-                                gettext(qty + ' learners accounts cannot be found and have not added to the exception' +
-                                    ' list') :
+                                gettext(qty + ' learner accounts cannot be found and have not been added to the ' +
+                                    'exception list') :
                                 gettext(qty + ' learner account cannot be found and has not been added to the' +
                                     ' exception list');
                             break;
 
                         case MESSAGE_GROUP.user_already_allowlisted:
                             text = qty > 1 ?
-                                gettext(qty + ' learners are already on the allowlist and have not been added to the' +
-                                    ' exception list') :
-                                gettext(qty + ' learner is already on the allowlist and has not been added to the' +
-                                    ' exception list');
+                                gettext(qty + ' learners already appear on the exception list in this course') :
+                                gettext(qty + ' learner already appears on the exception list in this course');
                             break;
 
                         case MESSAGE_GROUP.user_not_enrolled:
