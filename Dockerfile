@@ -1,4 +1,4 @@
-FROM ubuntu:focal as base
+FROM ubuntu:20.04 as base
 
 # Warning: This file is experimental.
 
