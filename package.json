@@ -69,7 +69,8 @@
     "webpack-bundle-tracker": "0.2.1",
     "webpack-merge": "4.1.1",
     "whatwg-fetch": "2.0.3",
-    "which-country": "1.0.0"
+    "which-country": "1.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@edx/mockprock": "^1.0.1",
@@ -103,5 +104,10 @@
     "sinon": "2.3.5",
     "squirejs": "0.1.0",
     "stylelint-formatter-pretty": "1.0.3"
-  }
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
