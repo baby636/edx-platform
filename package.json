@@ -23,7 +23,7 @@
     "bootstrap": "4.0.0",
     "camelize": "1.0.0",
     "classnames": "2.2.5",
-    "css-loader": "0.28.8",
+    "css-loader": "1.0.0",
     "datatables": "1.10.18",
     "datatables.net-fixedcolumns": "3.2.6",
     "edx-proctoring-proctortrack": "git+https://git@github.com/anupdhabarde/edx-proctoring-proctortrack.git#d717f3b7e1d5aec6290d7dd08646cba8c6af3499",
@@ -73,7 +73,7 @@
   },
   "devDependencies": {
     "@edx/mockprock": "^1.0.1",
-    "@edx/stylelint-config-edx": "1.1.0",
+    "@edx/stylelint-config-edx": "1.1.1",
     "babel-jest": "23.0.1",
     "edx-custom-a11y-rules": "1.0.6",
     "enzyme": "3.3.0",
