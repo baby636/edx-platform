@@ -27,7 +27,7 @@
     "datatables": "1.10.18",
     "datatables.net-fixedcolumns": "3.2.6",
     "edx-proctoring-proctortrack": "git+https://git@github.com/anupdhabarde/edx-proctoring-proctortrack.git#d717f3b7e1d5aec6290d7dd08646cba8c6af3499",
-    "edx-ui-toolkit": "1.5.2",
+    "edx-ui-toolkit": "1.5.5",
     "exports-loader": "0.6.4",
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "1.1.6",
