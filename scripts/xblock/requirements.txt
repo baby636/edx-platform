@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-certifi==2021.5.30
+certifi==2024.7.4
     # via requests
 chardet==4.0.0
     # via requests
