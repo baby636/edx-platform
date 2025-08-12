@@ -85,7 +85,7 @@
     "jasmine-jquery": "git+https://github.com/velesin/jasmine-jquery.git#ebad463d592d3fea00c69f26ea18a930e09c7b58",
     "jest": "23.1.0",
     "jest-enzyme": "6.0.2",
-    "karma": "0.13.22",
+    "karma": "5.0.0",
     "karma-chrome-launcher": "0.2.3",
     "karma-coverage": "0.5.5",
     "karma-firefox-launcher": "0.1.7",
@@ -99,7 +99,7 @@
     "karma-webpack": "2.0.9",
     "plato": "1.2.2",
     "react-test-renderer": "16.4.0",
-    "selenium-webdriver": "3.4.0",
+    "selenium-webdriver": "4.0.0",
     "sinon": "2.3.5",
     "squirejs": "0.1.0",
     "stylelint-formatter-pretty": "1.0.3"
